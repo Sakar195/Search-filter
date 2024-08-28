@@ -5,23 +5,22 @@ import { useState } from "react";
 const SearchFilter = () => {
   // array of objects with name and url to image
   const items = [
-    { name: "Kanjiro", imageUrl: "/assets/Kanjiro.jpeg" },
-    { name: "Luffy", imageUrl: "/assets/Luffy.jpeg" },
-    { name: "Zoro", imageUrl: "/assets/Zoro.jpeg" },
-    { name: "Muzan", imageUrl: "/assets/Muzan.jpeg" },
-    { name: "Garp", imageUrl: "/assets/Garp.jpeg" },
-    { name: "Naruto", imageUrl: "/assets/Naruto.jpeg" },
-    { name: "Sasuke", imageUrl: "/assets/Sasuke.jpeg" },
-    { name: "Sakura", imageUrl: "/assets/Sakura.jpeg" },
-    { name: "Goku", imageUrl: "/assets/Goku.jpeg" },
-    { name: "Vegeta", imageUrl: "/assets/Vegeta.jpeg" },
-    { name: "Light Yagami", imageUrl: "/assets/LightYagami.jpeg" },
-    { name: "L", imageUrl: "/assets/L.jpeg" },
-    { name: "Spike Spiegel", imageUrl: "/assets/SpikeSpiegel.jpeg" },
-    { name: "Mikasa", imageUrl: "/assets/Mikasa.jpeg" },
-    { name: "Eren Yeager", imageUrl: "/assets/Eren.jpeg" },
+    { name: "Kanjiro", imageUrl: "/assets/kanjiro.jpeg" },
+    { name: "Luffy", imageUrl: "/assets/luffy.jpeg" },
+    { name: "Zoro", imageUrl: "/assets/zoro.jpeg" },
+    { name: "Muzan", imageUrl: "/assets/muzan.jpeg" },
+    { name: "Garp", imageUrl: "/assets/garp.jpeg" },
+    { name: "Naruto", imageUrl: "/assets/naruto.jpeg" },
+    { name: "Sasuke", imageUrl: "/assets/sasuke.jpeg" },
+    { name: "Sakura", imageUrl: "/assets/sakura.jpeg" },
+    { name: "Goku", imageUrl: "/assets/goku.jpeg" },
+    { name: "Vegeta", imageUrl: "/assets/vegeta.jpeg" },
+    { name: "Light Yagami", imageUrl: "/assets/lightyagami.jpeg" },
+    { name: "L", imageUrl: "/assets/l.jpeg" },
+    { name: "Spike Spiegel", imageUrl: "/assets/spikespiegel.jpeg" },
+    { name: "Mikasa", imageUrl: "/assets/mikasa.jpeg" },
+    { name: "Eren Yeager", imageUrl: "/assets/eren.jpeg" },
   ];
-
   const [searchQuery, setSearchQuery] = useState(""); // state to store search query
 
   // list of filtered items based on the search query
@@ -43,7 +42,7 @@ const SearchFilter = () => {
 
       <ul className="flex flex-wrap gap-6 mt-">
         {filteredItems.length === 0 && (
-          <p className="mt-3">No characters Found</p>
+          <p className="mt-">No characters Found</p>
         )}
 
         {filteredItems.map((item, index) => (
