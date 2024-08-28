@@ -16,7 +16,7 @@ const SearchFilter = () => {
     { name: "Goku", imageUrl: "/assets/goku.jpeg" },
     { name: "Vegeta", imageUrl: "/assets/vegeta.jpeg" },
     { name: "Light Yagami", imageUrl: "/assets/lightyagami.jpeg" },
-    { name: "L", imageUrl: "/assets/l.jpeg" },
+    { name: "L", imageUrl: "/assets/L.jpeg" },
     { name: "Spike Spiegel", imageUrl: "/assets/spikespiegel.jpeg" },
     { name: "Mikasa", imageUrl: "/assets/mikasa.jpeg" },
     { name: "Eren Yeager", imageUrl: "/assets/eren.jpeg" },
