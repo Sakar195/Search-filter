@@ -5,22 +5,23 @@ import { useState } from "react";
 const SearchFilter = () => {
   // array of objects with name and url to image
   const items = [
-    { name: "Kanjiro", imageUrl: "/src/assets/Kanjiro.jpeg" },
-    { name: "Luffy", imageUrl: "/src/assets/Luffy.jpeg" },
-    { name: "Zoro", imageUrl: "/src/assets/Zoro.jpeg" },
-    { name: "Muzan", imageUrl: "/src/assets/Muzan.jpeg" },
-    { name: "Garp", imageUrl: "/src/assets/Garp.jpeg" },
-    { name: "Naruto", imageUrl: "/src/assets/Naruto.jpeg" },
-    { name: "Sasuke", imageUrl: "/src/assets/Sasuke.jpeg" },
-    { name: "Sakura", imageUrl: "/src/assets/Sakura.jpeg" },
-    { name: "Goku", imageUrl: "/src/assets/Goku.jpeg" },
-    { name: "Vegeta", imageUrl: "/src/assets/Vegeta.jpeg" },
-    { name: "Light Yagami", imageUrl: "/src/assets/LightYagami.jpeg" },
-    { name: "L", imageUrl: "/src/assets/L.jpeg" },
-    { name: "Spike Spiegel", imageUrl: "/src/assets/SpikeSpiegel.jpeg" },
-    { name: "Mikasa", imageUrl: "/src/assets/Mikasa.jpeg" },
-    { name: "Eren Yeager", imageUrl: "/src/assets/Eren.jpeg" },
+    { name: "Kanjiro", imageUrl: "/assets/Kanjiro.jpeg" },
+    { name: "Luffy", imageUrl: "/assets/Luffy.jpeg" },
+    { name: "Zoro", imageUrl: "/assets/Zoro.jpeg" },
+    { name: "Muzan", imageUrl: "/assets/Muzan.jpeg" },
+    { name: "Garp", imageUrl: "/assets/Garp.jpeg" },
+    { name: "Naruto", imageUrl: "/assets/Naruto.jpeg" },
+    { name: "Sasuke", imageUrl: "/assets/Sasuke.jpeg" },
+    { name: "Sakura", imageUrl: "/assets/Sakura.jpeg" },
+    { name: "Goku", imageUrl: "/assets/Goku.jpeg" },
+    { name: "Vegeta", imageUrl: "/assets/Vegeta.jpeg" },
+    { name: "Light Yagami", imageUrl: "/assets/LightYagami.jpeg" },
+    { name: "L", imageUrl: "/assets/L.jpeg" },
+    { name: "Spike Spiegel", imageUrl: "/assets/SpikeSpiegel.jpeg" },
+    { name: "Mikasa", imageUrl: "/assets/Mikasa.jpeg" },
+    { name: "Eren Yeager", imageUrl: "/assets/Eren.jpeg" },
   ];
+
   const [searchQuery, setSearchQuery] = useState(""); // state to store search query
 
   // list of filtered items based on the search query
